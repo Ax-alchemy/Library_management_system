@@ -38,7 +38,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django_stuff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,10 @@
       <option name="presentableId" value="Default" />
       <updated>1604027746068</updated>
       <workItem from="1604027747889" duration="8690000" />
+      <workItem from="1604123376806" duration="171000" />
+      <workItem from="1604123559834" duration="44000" />
+      <workItem from="1604123625482" duration="20000" />
+      <workItem from="1604123646680" duration="799000" />
     </task>
     <servers />
   </component>
@@ -71,15 +75,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604029889224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604029889224" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604028500971">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604123643163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604028500971" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604123643163" />
   </component>
 </project>
