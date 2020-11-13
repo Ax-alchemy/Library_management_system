@@ -3,7 +3,7 @@ import pymysql
 
 hostname = 'localhost'
 username = 'root'
-password = 'parasDev12$'
+password = '7392031218'
 database = 'library'
 
 myConnection = pymysql.connect( host=hostname, user=username, passwd=password, db=database)
@@ -19,6 +19,7 @@ cur.execute("ALTER TABLE Fines AUTO_INCREMENT = 1;")
 
 books = pd.read_csv('books.csv')
 borrowers = pd.read_csv('borrowers.csv')
+
 
 def insertIntoBook(conn, data, key):
 	isbn10 = data._get_value(key,'ISBN10')
@@ -37,6 +38,7 @@ def insertIntoBook(conn, data, key):
 	for author in authors:
 		query2 = 'INSERT INTO Authors(Name) VALUES("'+ author +'");'
 		cur.execute(query2)
+
 
 def insertIntoBorrower(conn, data, key):
 	ssn = str(data._get_value(key,'id'))
