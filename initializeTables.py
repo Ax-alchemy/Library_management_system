@@ -3,7 +3,7 @@ import pymysql
 
 hostname = 'localhost'
 username = 'root'
-password = 'parasDev12$'
+password = '7392031218'
 database = 'library'
 
 myConnection = pymysql.connect( host=hostname, user=username, passwd=password, db=database)

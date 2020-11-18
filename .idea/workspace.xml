@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/createTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/createTables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initializeTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/initializeTables.py" afterDir="false" />
     </list>
@@ -50,7 +46,7 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="d3f15d00-a1ee-4f4d-a637-c66d2337fb4d" />
+  <component name="JupyterTrust" id="f8914917-8c35-4859-88a3-544e68070321" />
   <component name="ProjectId" id="1ja2BPlnu4cfj2XN0aKb9L7EtGy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
