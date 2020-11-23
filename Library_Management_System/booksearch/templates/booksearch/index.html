@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
+{% extends "homepage/index.html" %}
+{% load static %}
+<!--<html>-->
+<!--<head>-->
+	{% block body_bloc %}
 	<title>Book Search</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body style="background-color: moccasin">
-	<nav class="navbar navbar-dark" style="background-color: goldenrod">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" style="font-size: 175%" href="../">Library Management System</a>
-	    </div>
-	    <ul class="nav navbar-nav" style="float: right">
-	      <li><a href="../booksearch" style="font-size: 125%">Book Search</a></li>
-	      <li><a href="../checkinbooks" style="font-size: 125%">Check-In</a></li>
-	      <li><a href="../payfine" style="font-size: 125%">Pay Fine</a></li>
-	      <li><a href="../addborrowers" style="font-size: 125%">Add Borrowers</a></li>
-	    </ul>
-	  </div>
-	</nav>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	{% endblock %}
+<!--	<meta charset="utf-8">-->
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<!--</head>-->
+<!--<body style="background-color: moccasin">-->
+<!--	<nav class="navbar navbar-dark" style="background-color: goldenrod">-->
+<!--	  <div class="container-fluid">-->
+<!--	    <div class="navbar-header">-->
+<!--	      <a class="navbar-brand" style="font-size: 175%" href="../">Library Management System</a>-->
+<!--	    </div>-->
+<!--	    <ul class="nav navbar-nav" style="float: right">-->
+<!--	      <li><a href="../booksearch" style="font-size: 125%">Book Search</a></li>-->
+<!--	      <li><a href="../checkinbooks" style="font-size: 125%">Check-In</a></li>-->
+<!--	      <li><a href="../payfine" style="font-size: 125%">Pay Fine</a></li>-->
+<!--	      <li><a href="../addborrowers" style="font-size: 125%">Add Borrowers</a></li>-->
+<!--	    </ul>-->
+<!--	  </div>-->
+<!--	</nav>-->
+	{% block body_block %}
 	<section align="center">
 		<h1>
 			Search for Books
@@ -40,7 +46,7 @@
 				<h3>Here are all books available</h3>
 				<table class="table table-striped">
 					<tr>
-						<th>Cover</th>
+<!--						<th>Cover</th>-->
 						<th>Isbn</th>
 						<th>Title</th>
 						<th>Author</th>
@@ -48,8 +54,8 @@
 						<th>Check out</th>
 					</tr>
 					{% for book in books %}
-					<tr>
-						<td><img src="{{ book.3 }}"></td>
+					<tr style="border: 1px solid black">
+<!--						<td><img src="{{ book.3 }}"></td>-->
 						<td>{{ book.0 }}</td>
 						<td>{{ book.1 }}</td>
 						<td>{{ book.2 }}</td>
@@ -92,5 +98,6 @@
 			}
 		</script>
 	</section>
-</body>
-</html>
+	{% endblock %}
+<!--</body>-->
+<!--</html>-->
