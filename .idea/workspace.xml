@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/createTables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initializeTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/initializeTables.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +82,7 @@
       <workItem from="1605257848112" duration="5000" />
       <workItem from="1605257862869" duration="1085000" />
       <workItem from="1605609777159" duration="5094000" />
+      <workItem from="1606173627054" duration="326000" />
     </task>
     <servers />
   </component>
