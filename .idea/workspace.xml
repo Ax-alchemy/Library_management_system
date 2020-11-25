@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Library_Management_System/payfine/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/addborrowers/static/css/sty.css" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/addborrowers/static/css/sty.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/booksearch/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/booksearch/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/booksearch/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/booksearch/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/booksearch/templates/booksearch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/booksearch/templates/booksearch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/checkinbooks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/checkinbooks/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/checkinbooks/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/checkinbooks/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/checkinbooks/templates/checkinbooks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/checkinbooks/templates/checkinbooks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/payfine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/payfine/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/payfine/templates/payfine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/payfine/templates/payfine/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +97,7 @@
       <workItem from="1605780041220" duration="557000" />
       <workItem from="1606120454918" duration="638000" />
       <workItem from="1606133982842" duration="5421000" />
+      <workItem from="1606315008811" duration="847000" />
     </task>
     <servers />
   </component>
