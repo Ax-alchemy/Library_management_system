@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/Library_Management_System/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/homepage/templates/homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/createTables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initializeTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/initializeTables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Library_Management_System/booksearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django_stuff" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,7 +95,10 @@
       <workItem from="1605615880152" duration="17000" />
       <workItem from="1605780041220" duration="557000" />
       <workItem from="1606120454918" duration="638000" />
-      <workItem from="1606133982842" duration="5421000" />
+      <workItem from="1606133982842" duration="6005000" />
+      <workItem from="1606208114245" duration="2393000" />
+      <workItem from="1607005107654" duration="15000" />
+      <workItem from="1607600099263" duration="46000" />
     </task>
     <servers />
   </component>
@@ -129,10 +126,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604029889224" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606134248662">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607600135272">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606134248662" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607600135272" />
     <state x="505" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604233659687" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1604246342960">
       <screen x="0" y="0" width="1536" height="864" />

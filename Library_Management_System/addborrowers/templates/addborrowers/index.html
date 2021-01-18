@@ -35,9 +35,9 @@
 			<form align="center" action="{% url 'addborrowers:index' %}" method="POST" class="form-inline">
 				<div class="form-group">
 					{% csrf_token %}
-					<tr>
+					<tr style="width: 150%">
 						<td>Full Name</td>
-						<td><input type="text" name="fname" class="form-control" required="1" /></td>
+						<td style="width: 150%><input type="text" name="fname" class="form-control" required="1" /></td>
 					</tr>
 					<tr>
 						<td>SSN</td>
