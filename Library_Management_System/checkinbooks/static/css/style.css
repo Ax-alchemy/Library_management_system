@@ -1,0 +1,17 @@
+th, table{
+    border: 2px solid black;
+}
+td{
+    border: 1.5px dashed black;
+}
+
+.search{
+    margin: 15px 500px;
+}
+tr:nth-of-type(2n){
+	background-color: lightskyblue;
+}
+
+tr:nth-of-type(2n+1){
+	background-color: #61b3f1;
+}

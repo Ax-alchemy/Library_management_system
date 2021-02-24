@@ -53,7 +53,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Library_Management_System/payfine" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +61,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\addborrowers\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mingul\PycharmProjects\Library_management_system\Library_Management_System\payfine" />
+      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\booksearch" />
+      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\checkinbooks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +93,11 @@
       <workItem from="1605257862869" duration="1085000" />
       <workItem from="1605609777159" duration="5094000" />
       <workItem from="1606173627054" duration="326000" />
+      <workItem from="1605615880152" duration="17000" />
+      <workItem from="1605780041220" duration="557000" />
+      <workItem from="1606120454918" duration="638000" />
+      <workItem from="1606133982842" duration="5421000" />
+      <workItem from="1606315008811" duration="847000" />
     </task>
     <servers />
   </component>
@@ -110,14 +125,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604029889224" />
-    <state x="505" y="122" key="FileChooserDialogImpl" timestamp="1604233659687">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606134248662">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604123643163" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606134248662" />
     <state x="505" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604233659687" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1604246342960">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604246342960" />
+    <state x="379" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606198139977">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="379" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1606198139977" />
   </component>
 </project>

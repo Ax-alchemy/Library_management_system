@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Authors(models.Model):
-    author = models.ForeignKey('BookAuthors', models.DO_NOTHING, db_column='Author_id', primary_key=True)  # Field name made lowercase.
+    author = models.OneToOneField('BookAuthors', models.DO_NOTHING, db_column='Author_id', primary_key=True)  # Field name made lowercase.
     name = models.CharField(db_column='Name', max_length=255)  # Field name made lowercase.
 
     class Meta:
@@ -24,7 +24,7 @@ class Book(models.Model):
 
 class BookAuthors(models.Model):
     author_id = models.AutoField(db_column='Author_id', primary_key=True)  # Field name made lowercase.
-    isbn = models.ForeignKey(Book, models.DO_NOTHING, db_column='Isbn', blank=True, null=True)  # Field name made lowercase.
+    isbn = models.OneToOneField(Book, models.DO_NOTHING, db_column='Isbn', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -33,8 +33,8 @@ class BookAuthors(models.Model):
 
 class BookLoans(models.Model):
     loan_id = models.AutoField(db_column='Loan_id', primary_key=True)  # Field name made lowercase.
-    isbn = models.ForeignKey(Book, models.DO_NOTHING, db_column='Isbn', blank=True, null=True)  # Field name made lowercase.
-    card = models.ForeignKey('Borrower', models.DO_NOTHING, db_column='Card_id', blank=True, null=True)  # Field name made lowercase.
+    isbn = models.OneToOneField(Book, models.DO_NOTHING, db_column='Isbn', blank=True, null=True)  # Field name made lowercase.
+    card = models.OneToOneField('Borrower', models.DO_NOTHING, db_column='Card_id', blank=True, null=True)  # Field name made lowercase.
     date_out = models.DateField(db_column='Date_out', blank=True, null=True)  # Field name made lowercase.
     due_date = models.DateField(db_column='Due_date', blank=True, null=True)  # Field name made lowercase.
     date_in = models.DateField(db_column='Date_in', blank=True, null=True)  # Field name made lowercase.
