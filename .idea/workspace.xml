@@ -19,16 +19,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="" />
+    <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/mingul" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="d3f15d00-a1ee-4f4d-a637-c66d2337fb4d" />
+  <component name="JupyterTrust" id="f8914917-8c35-4859-88a3-544e68070321" />
   <component name="ProjectId" id="1ja2BPlnu4cfj2XN0aKb9L7EtGy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,6 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,9 +76,13 @@
       <workItem from="1604123625482" duration="20000" />
       <workItem from="1604123646680" duration="799000" />
       <workItem from="1604145817520" duration="2857000" />
-      <workItem from="1604234611930" duration="783000" />
-      <workItem from="1604307834731" duration="1784000" />
-      <workItem from="1604910982686" duration="1578000" />
+      <workItem from="1604233125579" duration="528000" />
+      <workItem from="1604233663279" duration="3340000" />
+      <workItem from="1604246398613" duration="3683000" />
+      <workItem from="1605257848112" duration="5000" />
+      <workItem from="1605257862869" duration="1085000" />
+      <workItem from="1605609777159" duration="5094000" />
+      <workItem from="1606173627054" duration="326000" />
     </task>
     <servers />
   </component>
@@ -82,13 +102,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="110" key="#Inspections" timestamp="1604309291287">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="395" y="110" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1604309291287" />
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604029889224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604029889224" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604123643163">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="505" y="122" key="FileChooserDialogImpl" timestamp="1604233659687">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604123643163" />
+    <state x="505" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604233659687" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1604246342960">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604246342960" />
   </component>
 </project>
