@@ -36,7 +36,7 @@ def index(request):
 			days = cursor.fetchone()[0]
 
 			if(days > 0):
-				fine_amt = days*0.25;
+				fine_amt = days*0.25
 				message = "Your fine of amount "+str(fine_amt)+" is due "
 				query = "SELECT Paid FROM Fines WHERE Loan_id = '"+ loan_id +"' GROUP BY Loan_id"
 				cursor.execute(query)
