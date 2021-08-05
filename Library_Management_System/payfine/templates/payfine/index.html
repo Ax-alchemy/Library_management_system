@@ -1,35 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Pay Fine</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body style="background-color: moccasin">
-	<nav class="navbar navbar-dark" style="background-color: goldenrod">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" style="font-size: 175%" href="../">Library Management System</a>
-	    </div>
-	    <ul class="nav navbar-nav" style="float: right">
-	      <li><a href="../booksearch" style="font-size: 125%">Book Search</a></li>
-	      <li><a href="../checkinbooks" style="font-size: 125%">Check-In</a></li>
-	      <li><a href="../payfine" style="font-size: 125%">Pay Fine</a></li>
-	      <li><a href="../addborrowers" style="font-size: 125%">Add Borrowers</a></li>
-	    </ul>
-	    <form action="{% url 'payfine:index' %}" method="post">
-			{% csrf_token %}
-			<input type="submit" value="Refresh Fines" class="btn btn-success navbar-btn" name="refreshfines">
-		</form>
-	  </div>
-	</nav>
-	<section align = "center">
+{% extends "homepage/index.html" %}
+
+{% load static %}
+
+{% block body_bloc %}
+	<title>PayFine</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block body_block %}
+	<section align = "center" class="container">
 		<h1>
 			Enter Card Number, Name or Ssn
 		</h1>
+
+<!--		<form action="{% url 'payfine:index' %}" method="post">-->
+<!--			{% csrf_token %}-->
+<!--			<input type="submit" value="Refresh Fines" class="btn btn-success navbar-btn" name="refreshfines">-->
+<!--		</form>-->
 
 		<form action="{% url 'payfine:index' %}" method="post" class="form-inline">
 			<div class="form-group">
@@ -39,11 +27,11 @@
 			</div>
 		</form>
 
-		{% if fines %}	
+		{% if fines %}
 			<div class="container">
 				<h3>Heres what we found</h3>
-				<table class="table table-striped">
-				<tr>
+				<table class="table">
+				<tr style="background-color: orangered">
 					<th>Card Number</th>
 					<th>Ssn</th>
 					<th>Full Name</th>
@@ -79,5 +67,4 @@
 			{% endif %}
 		</div>
 	</section>
-</body>
-</html>
+{% endblock %}

@@ -43,7 +43,7 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="d3f15d00-a1ee-4f4d-a637-c66d2337fb4d" />
+  <component name="JupyterTrust" id="f8914917-8c35-4859-88a3-544e68070321" />
   <component name="ProjectId" id="1ja2BPlnu4cfj2XN0aKb9L7EtGy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,7 +53,11 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<!-- <<<<<<< paras -->
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<!-- ======= -->
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Library_Management_System/payfine" />
+<!-- >>>>>>> main -->
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,12 +67,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\booksearch" />
-      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\checkinbooks" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\addborrowers\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mingul\PycharmProjects\Library_management_system\Library_Management_System\payfine" />
+      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\booksearch" />
+      <recent name="C:\Users\Paras chaudhary\PycharmProjects\Library_management_system\Library_Management_System\checkinbooks" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,15 +96,21 @@
       <workItem from="1605257848112" duration="5000" />
       <workItem from="1605257862869" duration="1085000" />
       <workItem from="1605609777159" duration="5094000" />
+      <workItem from="1606173627054" duration="326000" />
       <workItem from="1605615880152" duration="17000" />
       <workItem from="1605780041220" duration="557000" />
       <workItem from="1606120454918" duration="638000" />
+<!-- <<<<<<< paras -->
       <workItem from="1606133982842" duration="6005000" />
       <workItem from="1606208114245" duration="2393000" />
       <workItem from="1607005107654" duration="15000" />
       <workItem from="1607600099263" duration="46000" />
       <workItem from="1625829416767" duration="124000" />
       <workItem from="1625834506395" duration="969000" />
+<!-- ======= -->
+      <workItem from="1606133982842" duration="5421000" />
+      <workItem from="1606315008811" duration="847000" />
+<!-- >>>>>>> main -->
     </task>
     <servers />
   </component>
@@ -136,5 +147,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604246342960" />
+    <state x="379" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606198139977">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="379" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1606198139977" />
   </component>
 </project>

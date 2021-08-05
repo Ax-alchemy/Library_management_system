@@ -1,8 +1,10 @@
-/*table{*/
-/*    border: 2px solid black;*/
-/*    padding: 5px;*/
-/*}*/
-/*tr{*/
-/*    background: aquamarine;*/
-/*    padding: 10px;*/
-/*}*/
+.h1, h1 {
+	font-size: 36px;
+	margin: 15px auto;
+	width: max-content;
+	align-content: center;
+}
+
+tr{
+	border: 1px solid black;
+}
