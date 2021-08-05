@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20b09732-f46a-431c-b66e-fea59770d1d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Management_System/addborrowers/templates/addborrowers/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django_stuff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,6 +98,8 @@
       <workItem from="1606208114245" duration="2393000" />
       <workItem from="1607005107654" duration="15000" />
       <workItem from="1607600099263" duration="46000" />
+      <workItem from="1625829416767" duration="124000" />
+      <workItem from="1625834506395" duration="969000" />
     </task>
     <servers />
   </component>

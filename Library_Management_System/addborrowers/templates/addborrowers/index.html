@@ -37,7 +37,7 @@
 					{% csrf_token %}
 					<tr style="width: 150%">
 						<td>Full Name</td>
-						<td style="width: 150%><input type="text" name="fname" class="form-control" required="1" /></td>
+						<td style="width: 88%"><input type="text" name="fname" class="form-control" required="1" /></td>
 					</tr>
 					<tr>
 						<td>SSN</td>
@@ -52,14 +52,14 @@
 						<td><input type="text" style="margin-top: 1%" name="phone" class="form-control" required="1" /></td>
 					</tr>
 					<tr>
-						<td colspan="2" align="center"><input type="submit" class="btn btn-primary col-lg-8 mx-auto" style="margin: 5% 0 0 29%" value="Add" name="addborrower"></td>
+						<td colspan="2" align="center"><input type="submit" class="btn btn-primary col-lg-6 col-md-6 col-sm-6 col-xs-6 mx-auto" style="margin: 5% 0 0 29%" value="Add" name="addborrower"></td>
 					</tr>
 				</div>
 			</form>
 		</table>
 
 		{% if ssnexist %}
-			SSN already exists, please try again
+			<h3>SSN already exists, please try again</h3>
 		{% else %}
 			{% if message %}
 				{{message}}

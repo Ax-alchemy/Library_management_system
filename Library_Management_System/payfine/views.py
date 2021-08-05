@@ -47,7 +47,7 @@ def index(request):
 			cardnumber = request.POST['cardnumber']
 			query = "SELECT Loan_id FROM Book_Loans WHERE Date_in IS NOT NULL AND Card_id = '"+str(cardnumber)+"'"
 			cursor.execute(query)
-			loanids = cursor.fetchall();
+			loanids = cursor.fetchall()
 			for loanid in loanids:
 				query = "UPDATE Fines SET Fines.Paid = '1' WHERE Fines.Loan_id = '"+str(loanid[0])+"' AND Fines.Paid = '0'"
 				cursor.execute(query)
